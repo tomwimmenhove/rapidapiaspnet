@@ -1,7 +1,7 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Tom Wimmenhove",
-  "classifications": [ "RapidAPI" ],
+  "classifications": [ "RapidAPI/ASP.NET" ],
   "identity": "RapidAPI.Asp.NET",
   "name": "RapidAPI Asp.NET template",
   "shortName": "rapidapi",
