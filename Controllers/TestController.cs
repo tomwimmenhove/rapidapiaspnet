@@ -20,7 +20,7 @@ public class TestController : ControllerBase
     [HttpGet("test")]
     public IActionResult Test() => Ok(new
     {
-        ForwardedFor = _requestInfoProvider.GetForwardedFor(),
+        ForwardedFor = _requestInfoProvider.GetForwardedFor().Select(x => x.ToString()),
         User = _requestInfoProvider.GetUser(),
         ProxySecret = _requestInfoProvider.GetProxySecret(),
         Subscription = _requestInfoProvider.GetSubscription().ToString(),
