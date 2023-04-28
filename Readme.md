@@ -1,14 +1,21 @@
-Dotnet template for an RapidAPI Asp.NET application.
+Dotnet template for an RapidAPI/Asp.NET application.
 
-Install with:
+This package is available on NuGet: https://www.nuget.org/packages/RapidAPI.Asp.Net/
 
+Or just install directly from the command line, like:
 ```console
-dotnet new install ./
+dotnet new install RapidAPI.Asp.Net
 ```
 
-Set the `SecretValue` in the `Auth` section of the `appsettings.json` file
-to the correct `X-RapidAPI-Proxy-Secret` found on the RapidAPI provider page
-for the corresponding API under the "Security" tab and you're good to go.
+Now you can create a new RapidAPI/Asp.NET application with:
+```console
+dotnet new rapidapi
+```
+
+After the new project is created, set the `SecretValue` in the `Auth` section
+of the `appsettings.json` file to the correct `X-RapidAPI-Proxy-Secret` found
+on the RapidAPI provider page for the corresponding API under the "Security"
+tab and you're good to go.
 
 The default API implements one endpoint /Test/test that returns JSON data of the following format:
 ```json
