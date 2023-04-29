@@ -2,12 +2,13 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>0.2</PackageVersion>
+    <PackageVersion>0.3</PackageVersion>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageId>RapidAPI.Asp.Net</PackageId>
     <Title>RapidAPI/Asp.NET</Title>
     <Authors>Tom Wimmenhove</Authors>
     <Description>dotnet new templates for RapidAPI Asp.NET applications</Description>
-    <PackageTags>dotnet-new;templates;contoso</PackageTags>
+    <PackageTags>dotnet-new;templates;RapidAPI;Asp.NET</PackageTags>
 
     <TargetFramework>net7.0</TargetFramework>
 
@@ -21,6 +22,7 @@
 
   <ItemGroup>
     <Content Include="rapidapiaspnet\**\*" Exclude="rapidapiaspnet\bin\**;rapidapiaspnet\obj\**" />
+    <None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>

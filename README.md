@@ -1,8 +1,8 @@
 Dotnet template for an RapidAPI/Asp.NET application.
 
-This package is available on NuGet: https://www.nuget.org/packages/RapidAPI.Asp.Net/
+This package is available on NuGet: https://www.nuget.org/packages/RapidAPI.Asp.Net/ and on GitHub: https://github.com/tomwimmenhove/rapidapiaspnet
 
-Or just install directly from the command line, like:
+To install it directly from the command line:
 ```console
 dotnet new install RapidAPI.Asp.Net
 ```
